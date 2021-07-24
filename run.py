@@ -15,9 +15,14 @@ def livehealthy():
     return render_template("livehealthy.html")
 
 
-@app.route("/aboutus")
-def aboutus():
-    return render_template("aboutus.html")
+# @app.route("/careers")
+# def careers():
+#     return render_template("careers.html")
+
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
 
 
 if __name__ == "__main__":
