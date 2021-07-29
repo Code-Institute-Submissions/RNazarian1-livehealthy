@@ -12,7 +12,7 @@ def index():
 
 @app.route("/livehealthy")
 def livehealthy():
-    return render_template("livehealthy.html")
+    return render_template("livehealthy.html", page_title="Live Healthy")
 
 
 # @app.route("/careers")
@@ -22,7 +22,7 @@ def livehealthy():
 
 @app.route("/contact")
 def contact():
-    return render_template("contact.html")
+    return render_template("contact.html", page_title="Contact")
 
 
 if __name__ == "__main__":
