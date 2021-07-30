@@ -1,4 +1,21 @@
 {% extends "base.html" %}
 {% block content %}
-    <h4>{{page_title}}</h4>
+<h4>{{page_title}}</h4>
+{% for member in team %}
+
+<div class="row featurette">
+    <div class="col-md-5">
+        {{ member.name }}
+        <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
+    </div>
+    <div class="col-md-7">
+        <p>
+            {{ member.description }}
+        </p>
+
+    </div>
+
+</div>
+<hr class="featurette-divider">
+{%endfor%}
 {% endblock %}
