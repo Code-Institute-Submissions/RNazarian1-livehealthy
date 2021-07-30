@@ -26,7 +26,7 @@ def contact():
     data = []
     with open("data/team.json", "r") as json_data:
         data = json.load(json_data)
-    return render_template("contact.html", page_title="Contact", team= data)
+    return render_template("contact.html", page_title="Contact", team=data)
 
 
 if __name__ == "__main__":
