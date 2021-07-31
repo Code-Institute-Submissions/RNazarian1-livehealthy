@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Flask, render_template, request
+from flask import Flask, render_template
 
 
 app = Flask(__name__)
@@ -16,13 +16,8 @@ def livehealthy():
     return render_template("livehealthy.html", page_title="Live Healthy")
 
 
-@app.route("/contact", methods=["POST", "GET"])
+@app.route("/contact")
 def contact():
-    if request.method == "POST":
-        print(request.form.get("name"))
-        print(request.form.get("email"))
-        print(request.form.get("phone"))
-        print(request.form.get("message"))
     data = []
     with open("data/team.json", "r") as json_data:
         data = json.load(json_data)
