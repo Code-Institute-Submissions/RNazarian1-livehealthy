@@ -28,6 +28,19 @@ def contact():
         data = json.load(json_data)
     return render_template("contact.html", page_title="Contact", team=data)
 
+@app.route("/contact/<member_name>")
+def about_member(member_name):
+    member = {}
+    with open("data/team.json", "r") as json_data:
+        data = json.load(json_data)
+        for obj in data:
+            if obj["url"] == member_name:
+                member = obj
+    return "<h1>" + member["name"] + "</h1>"
+
+
+
+        
 
 if __name__ == "__main__":
     app.run(
