@@ -1,64 +1,83 @@
 {% extends "base.html" %}
 {% block content %}
-    <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        Man must explore, and this is exploration at its greatest
-                    </h2>
-                    <h3 class="post-subtitle">
-                        Problems look mighty small from 150 miles up
-                    </h3>
-                </a>
-                <p class="post-meta">Posted by
-                    <a href="#">Start Bootstrap</a>
-                    on September 24, 2019</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                    </h2>
-                </a>
-                <p class="post-meta">Posted by
-                    <a href="#">Start Bootstrap</a>
-                    on September 18, 2019</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        Science has not yet mastered prophecy
-                    </h2>
-                    <h3 class="post-subtitle">
-                        We predict too much for the next year and yet far too little for the next ten.
-                    </h3>
-                </a>
-                <p class="post-meta">Posted by
-                    <a href="#">Start Bootstrap</a>
-                    on August 24, 2019</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        Failure is not an option
-                    </h2>
-                    <h3 class="post-subtitle">
-                        Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                    </h3>
-                </a>
-                <p class="post-meta">Posted by
-                    <a href="#">Start Bootstrap</a>
-                    on July 8, 2019</p>
-            </div>
-            <hr>
-            <!-- Pager -->
-            <div class="clearfix">
-                <a class="btn btn-primary float-right" href="#">Go back to the top;</a>
-            </div>
-        </div>
+<h4>{{page_title}}</h4>
+<p>
+   <h4> Have you ever thought of your general health and your lifestyle?
+    <hr>Have you ever weight yoursef or have you measured your weist size?
+    <hr>Please think of yourself and your beloved ones. Check the next figures and see visually and numerically where you consider yourself?
+   </h4>
+</p>
+<div class="row featurette">
+    <div class="col-md-7">
+        <h6>
+            Are you worried about your BMI or waist size? Or just visually look carefully and see where you are ?
+        </h6>
+        <p>
+            Measuring your waist is a good way to check you're not carrying too much fat around your stomach, which
+            can raise your risk of heart disease, type 2 diabetes and stroke.<br>
+
+            You can have a healthy BMI and still have excess tummy fat, meaning you're still at risk of developing
+            these conditions.<br>
+            <ul>
+             Regardless of your height or BMI, you are at risk if your waist is:
+            
+            <li>
+            94cm (37ins) or more for men
+            </li>
+            <li>
+            80cm (31.5ins) or more for women
+            </li>
+            </ul>
+            <ul>
+            You're at very high risk and should contact a GP if your waist is:
+            <li>
+            102cm (40ins) or more for men
+            </li>
+            <li>  
+            88cm (34ins) or more for women
+            </li>
+            </ul>
+            </p>    
+
     </div>
+    <div class="col-md-5">
+        <img src="/static/img/livehealthy_1.jpg" alt="">
+    </div>
+ </div>
+ <div class="row featurette">
+    <div class="col-md-5">
+        <img src="/static/img/livehealthy_2.jpg" alt="">
+    </div>
+    <div class="col-md-7">
+        <h6>
+            What about children BMI?
+        </h6>
+        <p>
+            For children and young people aged 2 to 18, the BMI calculator takes into account age and gender as well
+            as height and
+            weight.<br>
+
+            Overweight children are thought to be at increased risk of a variety of health conditions, and they're
+            also more likely to be overweight as adults.<br>
+            <ul>
+            The BMI calculator works out if a child or young person is::
+            
+            <li>
+                underweight – on the 2nd centile or below
+            </li>
+            <li>
+                 healthy weight – between the 2nd and 91st centiles
+            </li>
+            <li>
+                overweight – 91st centile or above
+            </li>
+            <li>  
+                very overweight – 98th centile or above
+            </li>
+            </ul>
+            </p>    
+
+    </div>
+
+ </div>
 {% endblock %}
