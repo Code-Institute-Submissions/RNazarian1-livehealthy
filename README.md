@@ -25,21 +25,20 @@ This website is made written by using **HTML**, **CSS**,  and **Javascript**.
 
 ## **Overview**
 
-This website is develped based for a startup architecture company by focusing on simplicity and practicality of the website . 
-the visitors are expected to be a wide range of people from normal people to architecture and civil engineering companies and manicipalities. The website tends to be simple elegant and at the same time its design is simple and practical. 
+This website is develped based for a startup health service company by focusing on simplicity and practicality of the website . 
+the visitors are expected to be a wide range of people from adults to youngstres to receive help in order to start new healthy physical life. The website tends to be simple elegant and at the same time its design is simple and practical. 
 It shou8ld display the services at the first glance.
 
 ## **User Stories**
 
 Website visitors include: 
-* Those who are looking for unique and costomised designed houses or refurbishing existing dwellings
-* Those clients who are looking for interior design for houses, offices or businesses such as stores and shops
-* Many bigger companies that are outsourcing landscape designe as part of their projects or manicipalities who are planning to create parks and green spaces and also people who want their gardens in shape 
-* Architects and Engineers who need a realistic 3D view and feasibility studies for their projects
-This website is a a small hub for connecting all those people together and get serices 
+* Those who are looking for getting help over overweight or underweight body status 
+* Those clients who have eating disorders
+* People who have tried unsuccessfully many ways of controlling their weight and eating habits
+* People who believe in science and want to be treated based on the latest scientific researches
 
 
-* A **Manicipality** wants to check if a company has experties in landscape design and at the same time has experiences in designing dwellings or even making maquettes for feasibility and 3D display of the design as a requirement or publicity.
+* A **General Clinic** wants to check if a there are a team of scietistsand professionals who can help their patients solving weight issue based on scientific facts.
 * Many **home owners** requre to design their gardens and backyards so they can find their services easily as a separate service item.
 * As a **civil engineering company** need to plan landscape for their projects and they want to be sure the service provider can understand working with civil engineers by looking at company experties profile.
 * **Normal citizens**  who dreams of having their own  future dream home or villa, need to know which steps they are going through from the beginning to the end of their project.
