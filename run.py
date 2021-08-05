@@ -1,9 +1,12 @@
 import os
 import json
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, flash
+if os.path.exists("env.py"):
+    import env
 
 
 app = Flask(__name__)
+app.secret_key=os.environ.get("SECRET_KEY")
 
 
 @app.route("/")
@@ -23,6 +26,7 @@ def contact():
         print(request.form.get("email"))
         print(request.form.get("phone"))
         print(request.form.get("message"))
+        flash("Thanks {}, we will contact you", format(request.form.get("name")))
     data = []
     with open("data/team.json", "r") as json_data:
         data = json.load(json_data)
