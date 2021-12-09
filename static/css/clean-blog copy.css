@@ -72,7 +72,10 @@ blockquote {
   text-shadow: none;
 }
 
-
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
 
 img::selection {
   color: #fff;
@@ -171,8 +174,7 @@ header.masthead {
   background: no-repeat center center;
   background-color: #868e96;
   background-attachment: scroll;
-  position: absolute;
-  /* position: relative; */
+  position: relative;
   background-size: cover;
 }
 
