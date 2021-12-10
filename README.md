@@ -1,9 +1,6 @@
 # livehealthy
 ## A handy tool for monitoring body mass index (BMI)
 
-
-
-
 [Web Access](https://live-healthy.herokuapp.com/)
 
 **livehealthy**  is written by Reza Nazarian for Code Institute Third Milestone project.
@@ -14,6 +11,7 @@ This website is made written by using **HTML**, **CSS**,  **Javascript** and **P
 
 * [Overview](#overview)
 * [User Stories](#user-stories)
+* [Design Wireframe](#design-wireframe)
 * [UX](#ux)
 * [Features](#features)
 * [Technologies used](#technologies-used)
@@ -36,6 +34,10 @@ Website visitors include:
 * Those clients who have eating disorders
 * People who control their weight and eating habits after trying different methods
 * People who believe in science and want to be treated based on the latest scientific researches
+* The useers need to be able to calculate their BMI
+* Users need to be able to easily navigate through the site
+* Users should be be able to send email and ask for services
+* users should be able to find more about the services via social websites
 
 
 * A **General Clinic** wants to check if a there are a team of scietistsand professionals who can help their patients solving weight issue based on scientific facts.
@@ -45,6 +47,8 @@ Website visitors include:
 * **All users** Who are looking for an uptodate, and economically viable solution to their diet and weight related issues.
 * **All users** Can talk to their specialist and communicate online and reach them easily.
 * **All users** are able to check the center social media.
+## **Design Wireframe**
+  -   Home Page Wireframe - [View](static/wireframe/wireframe_live_ealthy.JPG)
 
 ## **UX**
 
@@ -59,7 +63,7 @@ Website visitors include:
 
 The website has three pages wnd a menu bar which links all pages together.
 
-The website will be responsive. and its [wireframe](static/assets/wireframe/livehealthy_wireframe.pdf) shows the blueprint of the project. The pages are displayed on three devises (desktop, tablet and smart-phone)
+The website will be responsive. and its [wireframe](static/wireframe/wireframe_live_ealthy.JPG) shows the blueprint of the project. The pages are displayed on three devises (desktop, tablet and smart-phone)
 
 ### &nbsp; &nbsp; **d.Surface**
 
@@ -172,18 +176,6 @@ HTML, CSS and Javascript and Python and deployed to Heroku framework were used f
 ![Contact  page responsiveness](assets/images/readme/responsiveness_contact.png)
 
 
-**Checking Email**
-
-A separate google email account is made for the website for the test of the projects.
-
-* ![Confirmation Message](assets/images/readme/confirmation_message.png)
-
-* ![Visitor Received Email](assets/images/readme/visitor_received_email_message.png)
-
-* ![Cmpany Received Email](assets/images/readme/company_received_email_message.png) 
-
-
-
 
 [W3C Markup Validation Service](https://validator.w3.org/)
 
@@ -227,7 +219,9 @@ To run locally, You can clone this repository directly in the editor of your cho
 and the local clone will be created.
 ***
 
-
+## **Bugs and Further Developments**
+BMI function need to be implemented. 
+Scalability issues on some parts requires fixing.
 
 ## **Acknowledgments**
 
